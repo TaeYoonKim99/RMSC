@@ -1,3 +1,9 @@
+# Required libraries
+required_packages <- c("httr", "jsonlite")
+missing_packages <- required_packages[!required_packages %in% rownames(installed.packages())]
+sapply(missing_packages, install.packages)
+sapply(required_packages, require, character.only = TRUE)
+
 # Global variables
 MAX_LONG_EXPOSURE <- 300000
 MAX_SHORT_EXPOSURE <- -100000
