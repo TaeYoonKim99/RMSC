@@ -4,7 +4,7 @@ MAX_SHORT_EXPOSURE <- -100000
 ORDER_LIMIT <- 5000
 
 # Set API key in a global environment
-api_key <- "NLJFH66O"
+api_key <- "CYYEH1N9"
 base_url <- "http://localhost:9999/v1"
 
 # Helper function to set headers
